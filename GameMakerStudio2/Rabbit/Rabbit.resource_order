@@ -1,0 +1,26 @@
+{
+  "FolderOrderSettings": [
+    {"name":"Conjuntos de casillas","order":2,"path":"folders/Conjuntos de casillas.yy",},
+    {"name":"Curvas de animación","order":12,"path":"folders/Curvas de animación.yy",},
+    {"name":"Extensiones","order":14,"path":"folders/Extensiones.yy",},
+    {"name":"Fuentes","order":7,"path":"folders/Fuentes.yy",},
+    {"name":"Líneas temporales","order":8,"path":"folders/Líneas temporales.yy",},
+    {"name":"Notas","order":13,"path":"folders/Notas.yy",},
+    {"name":"Objetos","order":9,"path":"folders/Objetos.yy",},
+    {"name":"Rutas","order":4,"path":"folders/Rutas.yy",},
+    {"name":"Salas","order":10,"path":"folders/Salas.yy",},
+    {"name":"Scripts","order":5,"path":"folders/Scripts.yy",},
+    {"name":"Secuencias","order":11,"path":"folders/Secuencias.yy",},
+    {"name":"Shaders","order":6,"path":"folders/Shaders.yy",},
+    {"name":"Sonidos","order":3,"path":"folders/Sonidos.yy",},
+    {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
+  ],
+  "ResourceOrderSettings": [
+    {"name":"Sp_ConejoJUMP","order":3,"path":"sprites/Sp_ConejoJUMP/Sp_ConejoJUMP.yy",},
+    {"name":"Sp_ConejoRUN","order":2,"path":"sprites/Sp_ConejoRUN/Sp_ConejoRUN.yy",},
+    {"name":"Sp_suelo1","order":1,"path":"sprites/Sp_suelo1/Sp_suelo1.yy",},
+    {"name":"Sp_Enemigo1","order":4,"path":"sprites/Sp_Enemigo1/Sp_Enemigo1.yy",},
+    {"name":"Obj_Salto","order":1,"path":"objects/Obj_Salto/Obj_Salto.yy",},
+    {"name":"Obj_Enemigo1","order":2,"path":"objects/Obj_Enemigo1/Obj_Enemigo1.yy",},
+  ],
+}
