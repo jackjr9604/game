@@ -8,5 +8,6 @@ gravity = 0.4;
 ground = 224;
 
 
+vidas = 1;
 
- 
+colision_con_enemigo = false;

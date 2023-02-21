@@ -16,8 +16,11 @@
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"Obj_vidas","order":4,"path":"objects/Obj_vidas/Obj_vidas.yy",},
     {"name":"Sp_ConejoJUMP","order":3,"path":"sprites/Sp_ConejoJUMP/Sp_ConejoJUMP.yy",},
+    {"name":"Obj_GeneEne","order":3,"path":"objects/Obj_GeneEne/Obj_GeneEne.yy",},
     {"name":"Sp_ConejoRUN","order":2,"path":"sprites/Sp_ConejoRUN/Sp_ConejoRUN.yy",},
+    {"name":"Sp_Salud","order":5,"path":"sprites/Sp_Salud/Sp_Salud.yy",},
     {"name":"Sp_suelo1","order":1,"path":"sprites/Sp_suelo1/Sp_suelo1.yy",},
     {"name":"Sp_Enemigo1","order":4,"path":"sprites/Sp_Enemigo1/Sp_Enemigo1.yy",},
     {"name":"Obj_Salto","order":1,"path":"objects/Obj_Salto/Obj_Salto.yy",},
