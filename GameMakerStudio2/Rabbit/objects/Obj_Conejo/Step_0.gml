@@ -15,18 +15,13 @@ if (y > ground) {
 
 // En el evento Step del objeto jugador
 if (vidas <= 0) {
-    // Si el jugador se queda sin vidas, muere
-    //audio_play_sound(snd_muerte, 1, false); // Reproduce un sonido de muerte
-    //sprite_index = spr_jugador_muerte; // Cambia el sprite del jugador a una imagen de muerte
-    alarm[0] = room_speed * 2; // Establece un temporizador para reiniciar el nivel
-    // Desactiva el control del jugador
-    hspeed = 0;
-    vspeed = 0;
-    image_speed = 0;
-    image_index = 0;
+    instance_destroy();
 }
 
- 
-
-	
-
+// En el evento Step del objeto
+if keyboard_check(vk_left) {
+    x -= velocidad1; // Mueve el personaje a la izquierda
+}
+if keyboard_check(vk_right) {
+    x += velocidad2 ; // Mueve el personaje a la derecha
+}
