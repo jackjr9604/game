@@ -1,6 +1,7 @@
-/// @DnDAction : YoYo Games.Movement.Set_Speed
-/// @DnDVersion : 1
-/// @DnDHash : 271A20FA
-/// @DnDArgument : "speed" "-2"
-/// @DnDArgument : "type" "1"
 hspeed = -2;
+
+// Verificar si se ha alcanzado el puntaje requerido
+if Obj_Puntaje.puntaje >= 10 {
+    // Aumentar la velocidad del personaje
+    hspeed =-3;
+}

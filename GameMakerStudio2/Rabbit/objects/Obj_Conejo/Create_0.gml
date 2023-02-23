@@ -14,5 +14,6 @@ vidas = 3;
 
 colision_con_enemigo = false;
 
-vida_obtenida = false; // Inicializa la variable vida_obtenida en false al crear el objeto
+vidas_maximas = 3;
 
+vida_obtenida = false;

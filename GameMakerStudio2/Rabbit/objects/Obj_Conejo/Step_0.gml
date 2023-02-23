@@ -25,3 +25,4 @@ if keyboard_check(vk_left) {
 if keyboard_check(vk_right) {
     x += velocidad2 ; // Mueve el personaje a la derecha
 }
+

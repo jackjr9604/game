@@ -1,12 +1,15 @@
-// En el evento Collision con el objeto de vida
-if other.object_index == Obj_auSalud && !vida_obtenida {
-    vidas += 1; // Incrementa la cantidad de vidas del personaje
-    vida_obtenida = true; // Marca que ya se obtuvo una vida
-	alarm[0] = room_speed * 1; // Establece un temporizador para restablecer la variable
+if other.object_index == Obj_auSalud && !vida_obtenida && vidas < vidas_maximas {
+vidas += 1;
+vida_obtenida = true;
+alarm[0] = room_speed * 1;
 }
 
-if other.object_index == Obj_auSalud {
-with (other) instance_destroy(); // Destruye el objeto de vida
+if vidas == 1 || vidas == 2 || vidas == 3  {
+instance_destroy(Obj_auSalud);
 }
 
- 
+Obj_Puntaje.puntaje += 3;
+
+
+
+
